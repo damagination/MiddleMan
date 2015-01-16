@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="damagination.com.middleman.ConfirmationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPaymentConfirmationReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <TextView
+            android:id="@+id/tvFullNameReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <TextView
+            android:id="@+id/tvEmailReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+
+        <TextView
+            android:id="@+id/tvPhoneReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+        <TextView
+            android:id="@+id/tvBankAccountReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+        <TextView
+            android:id="@+id/tvConfirmationIDReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+        <TextView
+            android:id="@+id/tvPaymentStatusReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6600"
+            android:padding="10dp"
+            android:text="Email Receipt!"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/tvStatusReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6600"
+            android:padding="10dp"
+            android:text="SEND"
+            android:textColor="@android:color/background_light"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

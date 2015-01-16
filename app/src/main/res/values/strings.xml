@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GLOBAL -->
+    <string name="app_name">MiddleMan</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="hint_amount">Amount in USD</string>
+    <string name="button_next">NEXT</string>
+    <string name="service_footnote">damagination.com/middleman</string>
+
+    <!-- RECEIVER ACTIVITY -->
+    <string name="receiver_info">Please Provide Receiver\'s Information</string>
+    <string name="example_full_name">FirstName LastName</string>
+    <string name="example_phone_number">+255754999999</string>
+    <string name="example_email_address">user@email.com</string>
+    <string name="example_account_number">Account # i.e 011000000000</string>
+    <string name="button_to_mpesa">Send to M-Pesa</string>
+    <string name="button_to_account">Send to Bank Account</string>
+    <string name="button_continue">CONTINUE</string>
+
+    <string-array name="banks_list">
+        <item>Please Select Your Bank</item>
+        <item>CRDB Bank PLC</item>
+    </string-array>
+
+    <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
