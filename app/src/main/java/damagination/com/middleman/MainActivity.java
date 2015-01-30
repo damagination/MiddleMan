@@ -160,7 +160,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     @Override
     public void afterTextChanged(Editable s) {
 
-        if (!etAmount.getText().toString().isEmpty()) {
+        if (!etAmount.getText().toString().trim().isEmpty()) {
 
             BigDecimal amount$ = new BigDecimal(etAmount.getText().toString());
             bdAmountToSend = amount$;
